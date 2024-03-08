@@ -1,3 +1,17 @@
-<h1>Hola angular</h1>
-
-<!-- <router-outlet /> -->
+<div>
+  <h1>Título Principal</h1>
+  <article>
+    <h2>Subtítulo del Artículo</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce hendrerit, quam nec aliquam placerat, nisi est tincidunt dui, at feugiat justo ligula a quam. Morbi vehicula libero nec risus bibendum, in dictum lorem laoreet. Nullam accumsan vitae est at lacinia.</p>
+    <p>Sed auctor justo nec elit porta, at vestibulum felis sagittis. Donec vel augue tincidunt, rutrum leo at, dapibus metus. Aliquam nec nulla id mauris placerat ultrices. Sed id mauris vehicula, posuere lacus vel, venenatis quam.</p>
+    <p>Maecenas rutrum purus euismod mi vestibulum, ut tempor nisi vestibulum. Sed nec enim vel magna dignissim ullamcorper eget sed mauris. Sed ultricies sapien non libero varius, vitae commodo lacus efficitur.</p>
+    <p>Vestibulum sit amet nunc nec enim vehicula mattis. Integer nec mauris non justo sollicitudin fringilla. Nulla facilisi. Nam dapibus orci vel urna lobortis rutrum.</p>
+  </article>
+  @defer(on viewport) { 
+    <app-comments /> 
+  }@placeholder {
+    <p>Futuros comentarios</p>
+  }@loading {
+    <p>Cargando comentarios</p>
+  }
+</div>
